@@ -1,5 +1,4 @@
-# c-data-structure
-
+# C data structure
 
 ## Why this?
 
@@ -8,3 +7,30 @@
 - Get more experience
 - Train skills to become a software engenier (i'm web developer)
 
+## System
+
+```bash
+Linux - Ubuntu 20.04.2
+```
+
+## Compile version
+
+```bash
+gcc - 9.3.0
+```
+
+## Compile programs
+
+```bash
+cd path/to/folder
+```
+
+```bash
+gcc index.c -o program
+```
+
+## Run program
+
+```bash
+./program
+```
