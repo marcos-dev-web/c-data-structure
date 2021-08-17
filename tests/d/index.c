@@ -10,7 +10,7 @@ typedef struct {
 } REGISTRO;
 
 typedef struct {
-  REGISTRO A[MAX];
+  REGISTRO A[MAX+1];
   int nroElem;
 } LISTA;
 
@@ -53,6 +53,14 @@ bool deleteItem(LISTA * l, TIPOCHAVE ch) {
     l->A[j] = l->A[j+1];
   }
   return 1==1;
+}
+
+int buscaSentinela(LISTA *l, TIPOCHAVE ch) {
+  int i = 0;
+  l->A[l->nroElem].chave = ch;
+  while (l->A[i].chave != ch) i++;
+  if (i == l->nroElem) return -1;
+  return i;
 }
 
 int main() {
