@@ -1,2 +1,10 @@
 # c-data-structure
-Codes to learn data structure in C
+
+
+## Why this?
+
+- Learn about C
+- Learn data structure with C
+- Get more experience
+- Train skills to become a software engenier (i'm web developer)
+
